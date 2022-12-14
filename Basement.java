@@ -77,7 +77,7 @@ public class Basement {
         int tic_fft;
         int slice_fft;
         int tic_c;
-        Object plan_a = fftw3.fftwf_plan_dft_r2c_1d(2*p.sample_count, (FloatPointer) samples, (FloatPointer) fft, fftw3.FFTW_ESTIMATE);
+        //Object plan_a = fftw3.fftwf_plan_dft_r2c_1d(2*p.sample_count, (FloatPointer) samples, (FloatPointer) fft, fftw3.FFTW_ESTIMATE);
     }
 
 
